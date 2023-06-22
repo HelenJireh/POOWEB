@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  align-items: center;
+  background: #D8AA96;
+  display: grid;
+  font-family: cursive;
+  font-size: 14px;
+  font-weight: 400;
+  height: 100vh;
+  justify-items: center;
+  weight: 100vw;
+}
+
+.signup-container {
+  display: grid;
+  grid-template-areas: "left right";
+  max-width: 900px;
+}
+
+.left-container {
+  background: secondary-bg-color;
+  overflow: hidden;
+  padding: 40px 0 0 0;
+  position: relative;
+  text-align: center;
+  width: 300px;
+}
+
+h1 {
+  color: font-color;
+  display: inline-block;
+  font-size: 24px;
+}
+
+i {
+  background: primary-bg-color;
+  border-radius: 50%;
+  color: secondary-bg-color;
+  font-size: 24px;
+  margin-right: 5px;
+  padding: 10px;
+  transform: rotate(-45deg);
+}
